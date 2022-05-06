@@ -216,8 +216,8 @@ for(let y = 0; y < map.length; y++){
 }
 HoldingArray[3][5] = 25;
 
-console.log("Holding:", HoldingArray);
-console.log("Map:", map);
+// console.log("Holding:", HoldingArray);
+// console.log("Map:", map);
 
 
 
@@ -244,4 +244,82 @@ console.log("Map:", map);
 // console.log(y[0]);
 
 
+let y = 0
+for( null; y<101; null){
+    // console.log(y);
+    y++;
+}
 
+for (const word in wordList) {
+    // console.log(wordList[word]);
+}
+
+for (const iterator of wordList) {
+    // console.log(iterator);
+}
+
+wordList.forEach(word => {
+    // console.log(word);
+});
+
+
+let faveFoods = [ 
+    "Bacon",
+    "TurkeyLeg",
+    "Bacon",
+    "Bacon",
+    "Cookies",
+    "Butterchicken",
+    "Lasagna"
+]
+
+
+// console.log(faveFoods[4]);
+
+
+let foodDictionary = {
+    Zach : "Bacon",
+    Carlos : "Lambchop",
+    Corey : "Cookies",
+    Div : "Muttonchop",
+    Jman : "Lasagna"
+}
+
+// console.log ('Jeff Likes ' + foodDictionary.Jman + ' and ' + (foodDictionary.Corey));
+// console.log(`Corey likes ${foodDictionary.Jman} and ${foodDictionary.Corey}`);
+// console.log (foodDictionary.Carlos)
+
+// console.log(foodDictionary.Carlos);
+
+
+// array.forEach(element => {foodDi
+    
+// }); 
+
+// (let index = foodDictionary; index < array.length; index++) {
+//     const element = array[index];
+//     console.log(index)
+// }
+//hz
+for (const [key, value] of Object.entries(foodDictionary)) {
+    // console.log(key, value);
+}
+
+//Corey
+for(const food in foodDictionary){
+    // console.log(`We all love ${foodDictionary[food]}`);
+}
+
+//Will this work... hmmm :)? 
+daniaFavVehicle.forEach(item => {
+    console.log(item);
+})
+
+
+// wordList.forEach(word => {
+//     // console.log(word);
+// });
+
+/*
+
+*/

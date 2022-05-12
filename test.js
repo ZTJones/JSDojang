@@ -28,6 +28,8 @@ let basicList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 let movieList = ["Jaws", "Friday the 13th", "KPAX", "Airplane!", "Avatar", "The Fifth Element"];
 // this should be solved as [0, 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FIZZBUZZ];
 
+console.log(movieList[0]); // Jaws
+
 function fizzBuzz(numList){
     // Insert cool code here
     // console.log(numList);
@@ -220,6 +222,7 @@ HoldingArray[3][5] = 25;
 // console.log("Map:", map);
 
 
+// var and let can be used to declare variables.
 
 // let testA = 5;
     // let testB = testA;
@@ -227,8 +230,7 @@ HoldingArray[3][5] = 25;
     // console.log("test A: " + testA);
     // console.log("test B: " + testB);
 
-
-
+let test2 = 5
 
 // let x = [0,1,2,3];
 // let y = x;
